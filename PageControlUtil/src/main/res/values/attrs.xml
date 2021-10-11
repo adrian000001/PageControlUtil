@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pagecontrol">
+        <attr name="backgroundSelect" format="color" />
+        <attr name="backgroundUnselect" format="color" />
+
+    </declare-styleable>
+</resources>

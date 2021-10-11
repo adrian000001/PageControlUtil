@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titletextcolor">#F9F7F4</color>
+    <color name="titletextcolor_push">#aaa</color>
+    <color name="textcolor">#333333</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#f7f6f6</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <!--Colores del menu-->
+    <color name="fondo">#2A2D33</color>
+    <color name="FondoClaro">#F5F5F5</color>
+    <color name="fondoTransparente">#992A2D33</color>
+    <color name="fondoTransparentefull">#262A2D33</color>
+    <color name="fondoTransparente2">#3f4247</color>
+    <color name="fondoTransparentelogin">#E62A2D33</color>
+    <color name="lineamenulateral">#4D4D4D</color>
+    <color name="piedepagina">#1E2227</color>
+    <color name="bannertoolbar">#1D1D1B</color>
+    <!--Colores varios-->
+    <color name="verde">#A0BF38</color>
+
+    <color name="azul">#1190FF</color>
+    <color name="naranja">#DF9A2D</color>
+    <color name="naranjafab">#FF9000</color>
+    <color name="plomo">#5B5B61</color>
+    <color name="rojo">#8B0000</color>
+    <color name="bimocolor">#8e9da7</color>
+    <color name="leyendas">#cb973a</color>
+    <color name="Gris">#c5cdd2</color>
+    <color name="negro">#060808</color>
+
+
+
+    <!--Ventana Home -->
+    <color name="verdeCabecerahome">#007A45</color>
+    <color name="color_fondo_menuhome">#FFFFFF</color>
+    <color name="color_boton_menuhome">#1A1C21</color>
+    <color name="color_linea_menuhome">#ECECEC</color>
+    <color name="color_lineaseparador_menuhome">#ECECEC</color>
+    <color name="color_activajepmovil_menuhome">#25BE00</color>
+    <color name="color_hastesocio_menuhome">#7D7D82</color>
+    <color name="color_fondo_ventana_home">#FFFFFF</color>
+    <color name="color_fondo_haztesocio_home">#F5F5F8</color>
+
+
+    <!--Selectors home abrir cuenta-->
+    <color name="fondo_boton_abrir_cuenta">#FFFFFF</color>
+    <color name="margen_boton_abrir_cuenta">#ECECEC</color>
+    <!-- pie de pagina-->
+    <color name="piePagina">#7D7D82</color>
+
+    <!--Ventana Login-->
+    <color name="texto_titulo_login">#7D7D82</color>
+    <color name="fondo_ventana_login">#FFFFFF</color>
+    <color name="linea_separador_login">#ECECEC</color>
+    <color name="fondo_edittext_login">#F5F5F5</color>
+
+    <color name="color_texto_usuario_login">#505F55</color>
+    <color name="color_texto_password_login">#505F55</color>
+
+    <color name="color_texto_acceder_login">#FFFFFF</color>
+    <color name="color_fondo_boton_acceder_login">#007A45</color>
+
+    <color name="color_texto_boton_salir_login">#505F55</color>
+    <color name="fondo_boton_salir_login">#FDFDFD</color>
+    <color name="margen_boton_salir_login">#7D7D82</color>
+
+    <color name="color_texto_olvidousuario_login">#7D7D82</color>
+
+
+    <!-- ***************** -->
+    <color name="lineaBorde">#ECECEC</color>
+    <color name="linetxtotp">#D5D5D5</color>
+    <color name="texto_boton_crear_jepmovil_login">#FFFFFF</color>
+
+
+    <color name="margen_Boton_acceder_login">#707070</color>
+    <color name="texto_Boton_acceder_login">#FFFFFF</color>
+
+    <color name="transprencia">#002A2D33</color>
+
+    <color name="fondo_dialog_usuario_contrasenia">#F5F5F5</color>
+
+    <!-- Otp simple-->
+    <color name="color_fondo_otpsimple">#FFFFFF</color>
+    <color name="color_textotitulo_otpsimple">#FFFFFF</color>
+    <color name="color_fondotitulo_otpsimple">#000000</color>
+    <color name="color_textosubtitulo_otpsimple">#7D7D82</color>
+    <color name="color_textoingreso_otpsimple">#007A45</color>
+
+
+    <color name="color_lineaBorde_otpsimple">#ECECEC</color>
+    <color name="color_textomensaje_otpsimple">#FBAE17</color>
+
+    <color name="color_fondoaceptar_otpsimple">#007A45</color>
+    <color name="color_textoaceptar_otpsimple">#FFFFFF</color>
+
+    <color name="color_textsalir_otpsimple">#505F55</color>
+    <color name="fondo_botonsalir_otpsimple">#FDFDFD</color>
+    <color name="margen_botonsalir_otpsimple">#7D7D82</color>
+
+    <color name="color_textoboton_solicitar_otpsimple">#505F55</color>
+    <color name="fondo_botonsolicitar_otpsimple">#E6E6E9</color>
+    <color name="margen_botonsolicitar_otpsimple">#7D7D82</color>
+
+
+    <!--Dialog Usuario y Contraseña -->
+
+    <color name="texto_boton_olvido_usuario">#6C7B66</color>
+    <color name="margen_boton_olvido_usuario">#707070</color>
+    <color name="fondo_boton_olvido_usuario">#ECECEC</color>
+
+    <color name="texto_boton_olvido_contrasenia">#6C7B66</color>
+    <color name="margen_boton_olvido_contrasenia">#707070</color>
+    <color name="fondo_boton_olvido_contrasenia">#ECECEC</color>
+
+    <!-- Barchart Dashboard -->
+    <color name="color_barchart">#007A45</color>
+    <color name="color_fondo_barchart">#FDFDFD</color>
+    <color name="linea_separador_dashboard">#ECECEC</color>
+    <color name="colorah_textototalsaldo_dasboard">#007A45</color>
+    <color name="colorah_textototalcuenta_dasboard">#282D37</color>
+    <color name="colorah_textnombrecuenta_dasboard">#282D37</color>
+    <color name="colorah_textcantidadcuentas_dasboard">#282D37</color>
+    <color name="colorah_texttipocuenta_dasboard">#282D37</color>
+    <color name="colorah_texttitularcuenta_dasboard">#282D37</color>
+    <color name="colorah_textnumerocuenta_dasboard">#282D37</color>
+    <color name="colorah_textolsaldo_dasboard">#007A45</color>
+    <color name="colorah_saldodisponible_dasboard">#282D37</color>
+    <color name="colorah_saldoxconfirmar_dasboard">#282D37</color>
+    <color name="colorah_vercerrarmovimientos_dasboard">#25BE00</color>
+    <color name="colorah_fondomovimientos_dashboard">#E5F1EC</color>
+    <color name="colorah_separadormovimientos_dashboard">#707070</color>
+    <color name="colorah_txtseleccionarmes_dashboard">#7D7D82</color>
+    <color name="colorah_txttipotransaccion_dashboard">#7D7D82</color>
+    <color name="colorah_spinermes_dashboard">#505F55</color>
+    <color name="colorah_spinertipotransaccion_dashboard">#505F55</color>
+    <color name="colorah_cabeceramovimientos_dashboard">#D7D7DC</color>
+    <color name="colorah_cabeceralblmovimientos_dashboard">#282D37</color>
+    <color name="colorah_fondotablamovimientos_dashboard">#F5F5F8</color>
+    <color name="colorah_fondomastransacciones_dashboard">#F5F5F8</color>
+    <color name="colorah_mastransacciones_dashboard">#007A45</color>
+    <color name="colorah_listamastransacciones_dashboard">#1A1C21</color>
+    <color name="colorah_saludocolor_dashboard">#25BE00</color>
+    <color name="colorah_titulacolor_dashboard">#FDFDFD</color>
+    <color name="color_lineaseparador_dashboard">#D7D7DC</color>
+    <color name="colorcr_lbldetalles_dashboard">#7D7D82</color>
+    <color name="colorcr_valoresdetalles_dashboard">#007A45</color>
+    <color name="colorcr_valorpagado_dashboard">#879B7D</color>
+    <color name="colorcr_valorfechas_dashboard">#879B7D</color>
+    <color name="color_texto_boton_amortizacion_dashboard">#879B7D</color>
+    <color name="color_margen_boton_amortizacion_dashboard">#B4B4B9</color>
+
+    <color name="color_borde_textinversiones">#B5B5B5</color>
+    <color name="color_textinversiones">#7B7B7B</color>
+
+
+
+
+
+
+
+    <color name="bottom_bar_color">#191E28</color>
+    <color name="bottom_bar_selected_color">#25BE00</color>
+    <color name="bottom_bar_default_color">#7D7D82</color>
+
+    <color name="background_primary">#FDFDFD</color>
+
+    <color name="color_1">#1A1C21</color>
+
+    <color name="color_2">#D5D5D5</color>
+
+    <color name="verdeb2">#35783C</color>
+    <color name="verdeb3">#576751</color>
+    <color name="verdeb4">#5DC145</color>
+    <color name="verdeb5">#D8E2D8</color>
+    <color name="verdeb6">#E6ECD8</color>
+    <color name="blancob">#FFFFFF</color>
+    <color name="plomob">#ECECEC</color>
+    <color name="plomob2inv">#F5F5F5</color>
+    <color name="plomo3inv">#2A2D33</color>
+
+
+
+
+    <!--Beneficiarios externos -->
+    <color name="texto_alerta_beneficiarios_externos">#5B5B61</color>
+    <color name="texto_etiquetas_beneneficios_externos">#5B5B61</color>
+    <color name="texto_beneneficios_externos_verde">#576751</color>
+    <color name="texto_beneneficios_externos_plomo">#7B7B7B</color>
+    <color name="texto_beneneficios_externos_institucion">#6C7B66</color>
+    <color name="fondo_institucionfinanciera_beneficiario">#ECECEC</color>
+    <color name="borde_perfil_camara">#707070</color>
+    <color name="borde_separaciones_beneficiarios">#B5B5B5</color>
+
+    <!--Transferencias -->
+    <color name="itemTransferencias">#E1E8E2</color>
+    <color name="detalleTransferencias">#2A2D33</color>
+    <color name="texttransferencias">#576751</color>
+    <color name="separador_transferencias">#D5D5D5</color>
+    <color name="fondo_edittextransferencias">#FFFFFF</color>
+    <color name="cabeceraconfirmacion">#35783C</color>
+    <color name="tituloconfirmacion">#89FD00</color>
+    <color name="separadorverticaltransferencias">#91A888</color>
+    <color name="fondo_boton_circulo_transferencia">#ECECEC</color>
+    <color name="margen_boton_circulo_transferencia">#7B7B7B</color>
+    <color name="texto_boton_circulo_transferencia">#6C7B66</color>
+
+    <!--Confirmacion Transferencias -->
+    <color name="separadorconfirmacion">#706F74</color>
+    <color name="labelsconfirmacion">#B3B3B3</color>
+    <color name="nummensajeyfecha">#000000</color>
+    <color name="fondoresaltado">#E1E8E2</color>
+    <color name="activointernos">#35783C</color>
+    <color name="inactivointernos">#ECECEC</color>
+    <color name="textoactivo">#FFFFFF</color>
+    <color name="textoinactivo">#6C7B66</color>
+    <color name="activoexternos">#1A1C21</color>
+    <color name="inactivoexternos">#ECECEC</color>
+
+    <color name="textoBoton2">#6C7B66</color>
+
+
+    <color name="color_3">#FFFFFF</color>
+    <color name="color_4">#F5F5F5</color>
+</resources>
+
+
+
