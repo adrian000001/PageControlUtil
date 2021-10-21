@@ -37,9 +37,15 @@ public class PageControl extends LinearLayout {
         initialize(context,attrs);
     }
 
+
     HashMap<Integer,TextView> views = new HashMap<>();
     Drawable select = null;
     Drawable unselect = null;
+    int pages = 0;
+
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
 
     @SuppressLint("ResourceType")
     private void initialize(Context context, AttributeSet attrs){
@@ -54,14 +60,50 @@ public class PageControl extends LinearLayout {
             select = a.getDrawable(R.styleable.pagecontrol_backgroundSelect);
             unselect = a.getDrawable(R.styleable.pagecontrol_backgroundUnselect);
 
+        }
+
+        inflate(context, R.layout.item_view, this);
+        LinearLayout view = findViewById(R.id.content);
+
+
+        for(int i = 0;i<pages;i++){
+
+
+            TextView radious = new TextView(context);
+            radious.setTextColor(Color.BLUE);
+            radious.setWidth(20);
+            radious.setHeight(20);
+            radious.setId(1);
+            radious.setBackground(unselect);
+
+            radious.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    setSelected(1);
+
+                    listenerPageControl.changePageControl(1);
+                }
+            });
+
+            if(i>0){
+                LayoutParams params = new LayoutParams(
+                        LayoutParams.WRAP_CONTENT,
+                        LayoutParams.WRAP_CONTENT
+                );
+                params.setMargins(20, 0, 0, 0);
+
+                radious.setLayoutParams(params);
+
+            }
+
+            views.put(1,radious);
+            view.addView(radious);
 
         }
 
 
 
-
-        inflate(context, R.layout.item_view, this);
-        TextView radious = new TextView(context);
+       /* TextView radious = new TextView(context);
         radious.setTextColor(Color.BLUE);
         radious.setWidth(20);
         radious.setHeight(20);
@@ -127,7 +169,7 @@ public class PageControl extends LinearLayout {
 
         radious2.setBackground(unselect);
 
-        view.addView(radious2);
+        view.addView(radious2);*/
     }
 
 
