@@ -42,9 +42,44 @@ public class PageControl extends LinearLayout {
     Drawable select = null;
     Drawable unselect = null;
     int pages = 0;
-
+    private LinearLayout content = null;
     public void setPages(int pages) {
         this.pages = pages;
+        for(int i = 1;i<=pages;i++){
+
+
+            TextView radious = new TextView(context);
+            radious.setTextColor(Color.BLUE);
+            radious.setWidth(20);
+            radious.setHeight(20);
+            radious.setBackground(unselect);
+
+            final int position = i;
+            radious.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    setSelected(1);
+
+                    listenerPageControl.changePageControl(position);
+                }
+            });
+
+            if(i>0){
+                LayoutParams params = new LayoutParams(
+                        LayoutParams.WRAP_CONTENT,
+                        LayoutParams.WRAP_CONTENT
+                );
+                params.setMargins(20, 0, 0, 0);
+
+                radious.setLayoutParams(params);
+
+            }
+
+            views.put(i,radious);
+            content.addView(radious);
+
+        }
+
     }
 
     @SuppressLint("ResourceType")
@@ -63,43 +98,9 @@ public class PageControl extends LinearLayout {
         }
 
         inflate(context, R.layout.item_view, this);
-        LinearLayout view = findViewById(R.id.content);
+        content = findViewById(R.id.content);
 
 
-        for(int i = 0;i<pages;i++){
-
-
-            TextView radious = new TextView(context);
-            radious.setTextColor(Color.BLUE);
-            radious.setWidth(20);
-            radious.setHeight(20);
-            radious.setId(1);
-            radious.setBackground(unselect);
-
-            radious.setOnClickListener(new OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    setSelected(1);
-
-                    listenerPageControl.changePageControl(1);
-                }
-            });
-
-            if(i>0){
-                LayoutParams params = new LayoutParams(
-                        LayoutParams.WRAP_CONTENT,
-                        LayoutParams.WRAP_CONTENT
-                );
-                params.setMargins(20, 0, 0, 0);
-
-                radious.setLayoutParams(params);
-
-            }
-
-            views.put(1,radious);
-            view.addView(radious);
-
-        }
 
 
 
